@@ -1,0 +1,17 @@
+.m-margin-page{
+    margin: 0 auto; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.debug{
+    background-color: red;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.debug-1{
+    background-color: yellow;
+    border: 1px solid black;
+    height: 100px;
+}
