@@ -4,13 +4,13 @@
     margin-right: 20%;
 }
 
-.debug{
+.debug-red{
     background-color: red;
     border: 1px solid black;
     height: 100px;
 }
 
-.debug-1{
+.debug-yellow{
     background-color: yellow;
     border: 1px solid black;
     height: 100px;
