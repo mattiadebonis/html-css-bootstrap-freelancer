@@ -1,36 +1,44 @@
-.m_margin_page{
-    margin: 0 auto; 
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.debug-red{
-    background-color: red;
-    border: 1px solid black;
-    height: 100px;
-}
-
 .debug-yellow{
     background-color: yellow;
     border: 1px solid black;
     height: 100px;
 }
 
-.m_text_right{
-    text-align: right;
+main{
+    width: 100%;
 }
 
-.img-jumbo{
+.m_back_dark{
+    background-color: rgb(44,62,81);
+    color: white;
+}
+
+.m_back_dark a{
+    color: white;
+}
+.m_back_dark a:hover{
+    color: rgb(26, 188, 156);
+}
+
+.m_back_green{
+    background-color: rgb(26, 188, 156);
+    color:white;
+}
+
+.m_button_dark{
+    color: white;
+}
+
+.m_img_jumbo{
     margin-top:50px;
-    height: 200px;
+    height: 250px;
 }
 
 .divider{
-    border: 2px solid black;
-    border-radius: 50px;;
+    border: 2px solid white;
+    border-radius: 50px;
     width: 100px;
     margin: 10px;;
-
 }
 
 .m_divider_star{
@@ -38,6 +46,57 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+}
 
+#portfolio{
+    padding: 30px;
 
 }
+
+#contatti{
+    padding: 30px;
+    
+}
+
+.m_portfolio_item {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.m_portfolio_img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+#about{
+    padding: 40px;
+
+}
+.m_btn_white{
+    color: white;
+    background-color: rgb(26, 188, 156);
+    border-color: white;
+}
+.m_btn_white:hover{
+    background-color: rgba(255,255,255, 0,5)
+    color: rgb(26, 188, 156);
+}
+
+form *{
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+.m_divider_black{
+    border: 2px solid white;
+}
+@media only screen and (max-device-width: 480px) {
+   
+    
+
+}
+
