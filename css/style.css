@@ -15,3 +15,29 @@
     border: 1px solid black;
     height: 100px;
 }
+
+.m_text_right{
+    text-align: right;
+}
+
+.img-jumbo{
+    margin-top:50px;
+    height: 200px;
+}
+
+.divider{
+    border: 2px solid black;
+    border-radius: 50px;;
+    width: 100px;
+    margin: 10px;;
+
+}
+
+.m_divider_star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+}
