@@ -1,12 +1,4 @@
-.debug-yellow{
-    background-color: yellow;
-    border: 1px solid black;
-    height: 100px;
-}
 
-main{
-    width: 100%;
-}
 
 .m_back_dark{
     background-color: rgb(44,62,81);
@@ -16,6 +8,7 @@ main{
 .m_back_dark a{
     color: white;
 }
+
 .m_back_dark a:hover{
     color: rgb(26, 188, 156);
 }
@@ -25,15 +18,10 @@ main{
     color:white;
 }
 
-.m_button_dark{
-    color: white;
-}
-
 .m_img_jumbo{
     padding-top:50px;
     height: 250px;
     align-items: center;
-
 }
 
 .divider{
@@ -49,19 +37,23 @@ main{
     justify-content: center;
     width: 100%;
 }
+
 #m_jumbo_color{
     background-color: rgb(26, 188, 156);
     color:white;
-
 }
+
+/* padding sezioni */
 #portfolio{
     padding: 30px;
-
 }
 
 #contatti{
     padding: 30px;
-    
+}
+
+#about{
+    padding: 50px;
 }
 
 .m_portfolio_item {
@@ -74,13 +66,10 @@ main{
 .m_portfolio_img{
     width: 100%;
     border-radius: 10px;
-
 }
 
-#about{
-    padding: 40px;
 
-}
+
 .m_btn_white{
     color: white;
     background-color: rgb(26, 188, 156);
@@ -91,21 +80,37 @@ main{
     color: rgb(26, 188, 156);
 }
 
+
+/* form*/
 form *{
     border: none;
     border-bottom: 1px solid black;
+}
 
+input{
+    height: 40px;
+}
+
+form{
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+/* footer*/
+#copyright{
+    text-align: center;
+    background-color:rgb(26, 37, 47);
+    line-height: 80px;
+    height: 80px;;
+    color: white;
+}
+
+.m_col_footer{
+    padding: 60px;
 }
 
 .m_divider_black{
     border: 2px solid white;
-}
-@media screen and (max-device-width: 768px) {
-   
-    .m_portfolio_item {
-        width: 700px;
-
-    }
-
 }
 

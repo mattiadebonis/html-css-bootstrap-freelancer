@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
 </head>
 <body>
     <header>
@@ -25,7 +27,7 @@
                     </ul>  
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon m_button_dark"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>  
             </div> 
         </nav> 
@@ -33,7 +35,7 @@
 
         <!-- jumbotron-->
         <div class="">
-            <div class="jumbotron align-items-center" id="m_jumbo_color">
+            <div class="jumbotron" id="m_jumbo_color">
                 <img class="m_img_jumbo" src="img/avatar.svg" alt="">
                 <h1 class="text-uppercase font-weight-bold text-center">Start Bootstrap</h1>
                 
@@ -106,9 +108,7 @@
         
         <!-- /portfolio-->
 
-        <!-- about-->
-
-
+        <!-- about--> 
         <section class="m_back_green" id="about">
             <div class="container">
                 <div class="row justify-content-center ">
@@ -129,7 +129,7 @@
                     <div class="col-lg-6 col-md-6">
                         <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>                    
                     </div>
-                    <button type="button" class="btn btn-lg m_btn_white">Free download</button>
+                    <button type="button" class="btn btn-lg ">Free download</button>
                 </div>            
                 
             </div>
@@ -137,9 +137,9 @@
         <!-- /about-->
 
         <!-- contatti-->
-        <section claa="justify-content-center" id="contatti">
+        <section id="contatti">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center text-center">
                     <h2 class="text-uppercase ">Portfolio</h2>
                     <!-- divisore-->
                     <div class="m_divider_star align-items-center">
@@ -158,33 +158,42 @@
                         
                         <input class="col-lg-12 col-md-12" type="text" id="number" name="phone" value="Phone number">
         
-                        <textarea class="col-lg-12 col-md-12" name="comment" form="usrform" value="Message" row ="20">Message</textarea>
+                        <textarea class="col-lg-12 col-md-12" name="comment" form="usrform" value="Message" rows ="5">Message</textarea>
                     </form>
-                      
-        
                 </div>
-    
-    
-    
             </div>
-
-
         </section>
-        
-        
         <!-- /contatti-->
-
-        
     </main>
     <!-- main-->
+
     <!--footer-->
-    <footer>
+    <footer class="m_back_dark">
         <div class="container">
-            <div class="row debug-red">
-                <div class="col-lg-4 col-md-4 debug-yellow"></div>
-                <div class="col-lg-4 col-md-4 debug-yellow"></div>
-                <div class="col-lg-4 col-md-4 debug-yellow"></div>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-4 m_col_footer">
+                    <h4 class="text-uppercase">Location</h4>
+                    <p>2215Jonh Daniel Drive Clark, Mo 54243</p>
+
+                </div>
+                <div class="col-lg-4 col-md-4 m_col_footer">
+                    <h4 class="text-uppercase">Around the web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#">F</a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#">G</a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#">TW</a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#">IN</a>
+
+
+                </div>
+                <div class="col-lg-4 col-md-4 m_col_footer">
+                    <h4 class="text-uppercase">About Freelancer</h4>
+                    <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start Boostrap</a>
+                    </p>
+                </div>
             </div>
+        </div>
+        <div id ="copyright">
+            <p>Copyright (C) Your Website 2019</p>
         </div>
     </footer>
     <!-- /footer-->
