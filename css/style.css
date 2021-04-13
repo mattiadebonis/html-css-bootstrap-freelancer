@@ -30,15 +30,17 @@ main{
 }
 
 .m_img_jumbo{
-    margin-top:50px;
+    padding-top:50px;
     height: 250px;
+    align-items: center;
+
 }
 
 .divider{
     border: 2px solid white;
     border-radius: 50px;
     width: 100px;
-    margin: 10px;;
+    margin: 10px;
 }
 
 .m_divider_star{
@@ -47,7 +49,11 @@ main{
     justify-content: center;
     width: 100%;
 }
+#m_jumbo_color{
+    background-color: rgb(26, 188, 156);
+    color:white;
 
+}
 #portfolio{
     padding: 30px;
 
@@ -94,9 +100,12 @@ form *{
 .m_divider_black{
     border: 2px solid white;
 }
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 768px) {
    
-    
+    .m_portfolio_item {
+        width: 700px;
+
+    }
 
 }
 
