@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> 
+
 
     
 </head>
 <body>
     <header>
         <!-- nav bar-->
-        <nav class="navbar ms_navbar navbar-expand-lg navbar-expand-md text-uppercase m_back_dark">   
+        <nav class="navbar navbar navbar-dark bg-dark navbar-default ms_navbar navbar-expand-lg navbar-expand-md text-uppercase ">   
             <div class="container">
                 <div class="navbar-header">
                     <a class= "navbar-brand" href="#">Start Bootstrap</a>
@@ -24,10 +26,13 @@
                         <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
                         <li class="nav-item"><a href="" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-                    </ul>  
+                    </ul>
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler m_btn_toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon ">
+
+
+                    </span>
                 </button>  
             </div> 
         </nav> 
@@ -35,7 +40,7 @@
 
         <!-- jumbotron-->
         <div class="">
-            <div class="jumbotron" id="m_jumbo_color">
+            <div class="jumbotron text-center" id="m_jumbo_color">
                 <img class="m_img_jumbo" src="img/avatar.svg" alt="">
                 <h1 class="text-uppercase font-weight-bold text-center">Start Bootstrap</h1>
                 
@@ -105,7 +110,6 @@
                  </div>
             </div>
         </section>
-        
         <!-- /portfolio-->
 
         <!-- about--> 
@@ -178,7 +182,9 @@
                 </div>
                 <div class="col-lg-4 col-md-4 m_col_footer">
                     <h4 class="text-uppercase">Around the web</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#">F</a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
                     <a class="btn btn-outline-light btn-social mx-1" href="#">G</a>
                     <a class="btn btn-outline-light btn-social mx-1" href="#">TW</a>
                     <a class="btn btn-outline-light btn-social mx-1" href="#">IN</a>
